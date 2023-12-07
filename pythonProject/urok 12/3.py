@@ -1,0 +1,8 @@
+lst = list(input())
+print(lst)
+lst.pop(0)
+lst.pop(0)
+lst.insert(0, '8')
+lst.pop(lst.index('-'))
+lst.pop(lst.index('-'))
+print("".join(lst))
